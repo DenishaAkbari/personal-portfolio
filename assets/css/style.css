@@ -163,10 +163,11 @@ ul>li>a {
 }
 
 .banner {
-    background-image: url('../img/banner/banner.jpg');
+    /* background-image: url('../img/banner/banner.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    background-color: #FFB305;
 }
 
 .content {
@@ -225,11 +226,19 @@ ul>li>a {
 
 .me img {
     border-radius: 20px;
-    max-width: 520px;
+    width: 520px;
     height: 340px;
     object-fit: cover;
 }
-
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: white;
+}
+::-webkit-scrollbar-thumb {
+    background: #f4b63f; 
+}
 .me img:hover {
     box-shadow: 0 5px 10px 0 rgba(52, 58, 64, .1);
 }
